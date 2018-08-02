@@ -58,3 +58,34 @@ div.container {
   display: flex;
   justify-content: flex-end;
 }
+
+.flexbox {
+  display: flex;
+  height: 8rem;
+  margin: 3rem auto;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.pairs {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.exam, .fitting, .delivery {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.flexbox span {
+  align-items: flex-end;
+}
+
+.exam img {
+  width: 3.5rem;
+}
+
+.fitting img, .delivery img {
+  width: 5rem;
+}
