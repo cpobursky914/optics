@@ -89,3 +89,24 @@ div.container {
 .fitting img, .delivery img {
   width: 5rem;
 }
+
+.title {
+  background-color: cadetblue;
+  width: 10rem;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  padding-left: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.information {
+  width: 35%;
+}
+
+.supporting {
+  display: flex;
+  justify-content: center;
+}
