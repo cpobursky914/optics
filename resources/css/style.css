@@ -28,6 +28,18 @@ header {
   }
 }
 
+@media only screen and (max-width: 680px) {
+  .container {
+    width: 100%;
+  }
+
+  header {
+    padding-top: 0;
+    height: 17rem;
+    background-position: 20%;
+  }
+}
+
 nav {
   background-color: cadetblue;
   color: white;
@@ -40,6 +52,24 @@ nav {
 nav div {
   display: flex;
   align-items: center;
+}
+
+div.mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 620px) {
+  .menu {
+    display: none;
+  }
+
+  div.mobile {
+    display: flex;
+  }
+
+  nav span {
+    display: none;
+  }
 }
 
 nav img {
@@ -75,6 +105,19 @@ ul li {
     display: inline-block;
     margin-top: 5rem;
     margin-right: 2rem;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .main-banner {
+    font-size: 1rem;
+    line-height: 1.2;
+    font-weight: bold;
+    background-color: white;
+    padding: 1rem;
+    display: inline-block;
+    margin: 9rem auto;
+    width: 100%
   }
 }
 
