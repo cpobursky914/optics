@@ -104,9 +104,10 @@ div.container {
 
 .information {
   width: 35%;
+  margin: 0 2.5%;
 }
 
-.supporting {
+div.supporting.container {
   display: flex;
   justify-content: center;
 }
