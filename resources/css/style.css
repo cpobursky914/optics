@@ -217,3 +217,36 @@ footer img {
   padding: 4rem 1rem 4rem 4rem;
   height: 1.5rem;
 }
+
+
+@media only screen and (max-width: 620px) {
+  div.supporting.container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .title {
+    width: 100%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .information {
+    width: 90%;
+    margin-bottom: 4rem;
+}
+
+  footer span {
+    display: none;
+  }
+
+  footer.container {
+    flex-direction: column;
+  }
+
+  footer img {
+    padding: 4rem 1rem;
+  }
+}
