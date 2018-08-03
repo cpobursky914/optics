@@ -149,6 +149,28 @@ div.container {
   align-items: flex-end;
 }
 
+@media only screen and (max-width: 620px) {
+  .flexbox {
+    display: flex;
+    flex-direction: column;
+    margin-top:3.77rem;
+    margin-bottom: 3.77rem;
+    height: 16rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .fitting {
+    padding-top: 1.54rem;
+    padding-bottom: 1.54rem;
+  }
+
+  .flexbox span {
+    align-items: flex-end;
+    font-size: 0.77rem;
+  }
+}
+
 .exam img {
   width: 3.5rem;
 }
